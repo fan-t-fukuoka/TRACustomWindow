@@ -15,17 +15,17 @@ Usage
 ===============
 1. Add TRACustomWindow folder into your project.
 2. `#import "TRACustomUIWindow.h"` and `TRACustomUIWindowDelegate` into your ViewController header file.
-3. How to.
+3. How to  
 Show popup
-``` 
+```
 [[TRACustomUIWindow sharedInstance] showWindow];  
 [[TRACustomUIWindow sharedInstance] setDelegate:self];  
 ```
-  Dismiss popup.
+Dismiss popup.
 ```
 [[TRACustomUIWindow sharedInstance] hideWindow];
 ```
-  Disable touch event of screen. Default is enable.  
+Disable touch event of screen. Default is enable.  
 ```
 [[TRACustomUIWindow sharedInstance] setEnableBaseViewTouch:NO];
 ```
