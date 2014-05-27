@@ -5,3 +5,5 @@ TRACustomWindow you can easily implement pop-up of the announcement. You can tur
 
 Requirements
 ===============
+iOS 6.0 or later
+ARC
