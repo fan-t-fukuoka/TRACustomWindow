@@ -30,6 +30,8 @@
 {
     [[TRACustomUIWindow sharedInstance] showWindow];
     [[TRACustomUIWindow sharedInstance] setDelegate:self];
+    
+    // If you don't want to dismiss the popup with a touch of the screen,please break this comment out.
 //    [[TRACustomUIWindow sharedInstance] setEnableBaseViewTouch:NO];
 }
 
