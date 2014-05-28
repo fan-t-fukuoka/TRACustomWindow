@@ -21,7 +21,7 @@ Show popup
 [[TRACustomUIWindow sharedInstance] showWindow];  
 [[TRACustomUIWindow sharedInstance] setDelegate:self];  
 ```
-Dismiss popup.
+Dismiss popup by tap of Button.
 ```
 [[TRACustomUIWindow sharedInstance] hideWindow];
 ```
